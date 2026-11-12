@@ -6,9 +6,9 @@ from datetime import datetime
 
 PLACES = 10
 STEPS = 72          # hourly slots in the forecast window
-RESERVE = 0.15      # mass per place left unnamed for newly charting games
+RESERVE = 0.20      # mass per place (20%) left unnamed for newly charting games
 MAX_ROWS = 100      # max rows per place
-H_CAP = 12.0        # spread stops growing past this many hours
+H_CAP = 8.0         # spread stops growing past this many hours
 
 
 def parse_t(s):
